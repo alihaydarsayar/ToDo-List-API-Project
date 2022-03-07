@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ahs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+
+  <div class="container p-3">
+    <h1 class="app-title" id="header">ToDo List App</h1>
+    <div class="card">
+      <div class="card-header" id="card-header-h">
+        New Task
+      </div>
+      <div class="card-body">
+        <form id="addTaskForm">
+          <div class="input-group mb-3">
+            <input id="txtTaskName" name="taskName" type="text" class="form-control" placeholder="Type a new task ..."
+              aria-describedby="btnAddNewTask">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="submit" id="btnAddNewTask">
+                <i class="fas fa-plus"></i>
+              </button>
+              <button>
+                <a id="btnDeleteAll" href="#" class="btn btn-outline-danger btn-sm delete-all float-right">
+                  Delete All
+                </a>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="card mt-3">
+      <div class="card-header" id="card-header-h2">
+        <h3>Task List</h3>
+      </div>
+
+      <ul id="task-list" class="list-group float-left">
+        <!-----
+				<li class="list-group-item list-group-item-secondary">To do item
+					<a href="#" class="delete-item float-right">
+						<i class="fas fa-times"></i>
+					</a>
+				</li>
+				<li class="list-group-item list-group-item-secondary">To do item
+					<a href="#" class="delete-item float-right">
+						<i class="fas fa-times"></i>
+					</a>
+				</li>
+				<li class="list-group-item list-group-item-secondary">To do item
+					<a href="#" class="delete-item float-right">
+						<i class="fas fa-times"></i>
+					</a>
+				</li>
+				<li class="list-group-item list-group-item-danger">To do item
+					<a href="#" class="delete-item float-right">
+						<i class="fas fa-times"></i>
+					</a>
+				</li>
+			--->
+
+
+    </div>
+  </div>
+
+
+
+
+  <script src="todolist_chbox.js"></script>
+</body>
+
+</html>
